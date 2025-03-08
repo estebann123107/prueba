@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: auto;
+    margin: 0 auto;
+}
+.header {
+    background-image:
+        url(Conan\ Gray.jpeg);
+        background-position: center;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.70);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(235, 141, 19);
+    transition: 300ms;
+    
+}
+.menu .navbar ul li a:hover{
+    color: antiquewhite;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    text-align: center;
+}
+
+.logo{
+    color: rgb(235, 141, 19);
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.header-content h1{
+    color:rgb(235, 141, 19) ;
+    font-size: 50px;
+}
+.header-content h2{
+    color:rgb(235, 141, 19) ;
+    margin-bottom: 10px;
+    
+}
+.header-content h3{
+    color: rgb(192, 116, 17);
+    margin-bottom: 10px;
+}
+
+.btn-1{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    transition: 300ms;
+}
+.btn-1:hover{
+    background-color: rgb(192, 116, 17);
+    color: aliceblue;
+} 
+
+.coffee-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.coffee-1 h3{
+    color: aliceblue;
+}
+.coffe-content h2{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: rgb(192, 116, 17);
+    font-size: 40px;
+    
+}
+
+.coffee-1 img{
+    width: 250px;
+    border-radius: 10px;
+    transition: 300ms;
+}
+.coffee-1:hover img{
+    width: 260px;
+    border-radius: 10px;
+    opacity: 70%;   
+}
+.coffee-1:hover .kid{
+    color: aquamarine;
+}
+.coffee-1:hover .sup{
+    color: darksalmon;
+}
+.coffee-1:hover .fh{
+    color: darkkhaki;
+}
+.tour{
+    background-color: black;
+    margin-top: 50px;
+   text-align: center;
+   transition: ease-in-out;
+}
+
+
+
+.tour-content h2{
+    color: rgb(192, 116, 17);
+    ;
+    font-size: 40px;
+}
+
+.fal{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.info{
+    position: relative;
+    color: aliceblue;
+    text-align: left;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 400px;
+    margin-right:510px;
+    margin-top: 20px;
+    min-height: 20vb;
+    font-size: 20px;
+}
+.fecha li{
+    margin-top: 10px;
+}
+.lugar li{
+    margin-top: 10px;
+}
+.line{
+    background-color: white;
+    color: white;
+    font-size: 1px;
+    opacity: 10%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer ul li{
+    position: relative;
+    float: left;
+    margin-top: 5%;
+}
+.footer ul li a{
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(235, 141, 19);
+    transition: 300ms;
+}
+.footer ul li a:hover{
+    color: aliceblue;
+}
+
+  
+
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .carousel-container h1{
+    color: rgb(192, 116, 17);
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0, 0, 0, 0.7);
+    opacity: 70%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    border-radius: 50%;
+  }
+  
+  .prev {
+    left: 250px;
+  }
+  
+  .next {
+    right: 250px;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+
+@media(max-width:991px){
+    .coffee-1:hover .kid{
+        color: aliceblue;
+    }
+    .coffee-1:hover .sup{
+        color: aliceblue;
+    }
+    .coffee-1:hover .fh{
+        color: aliceblue;
+    }
+    .coffee-1:hover img{
+        width: 250px;
+        border-radius: 10px;
+        transition: 300ms;
+    }
+    .logo{
+        padding: 5px;
+    }
+    .menu{
+        padding: 20px;
+        
+    }
+    .menu label{display: initial;
+    }
+    .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.70);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 60%;
+    margin-right: 2%;
+    display: none;
+    
+    }
+    .menu .navbar ul li{
+        width: 100%;
+        text-align: start;
+        
+    }
+    .menu .navbar ul li a:hover{
+        color: rgb(235, 141, 19);
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+    .btn-1:hover{
+        background-color: initial;
+        color: aliceblue;
+    } 
+
+    .coffee{
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+    .coffe-content h2{
+        padding: 0;
+        margin: 0; 
+        text-align: center;
+    }
+    
+    
+    .coffee-group{
+        flex-direction: column;
+       align-items: center;
+    }
+    .coffee-1 h3{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    .tour{
+        padding: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .tour-content h2{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .fal{
+        display: flex;
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+    .info{
+    display: flex;
+    margin-left: 40px;
+    margin-right:20px;
+    margin-top: 20px;
+    text-align: start;
+    justify-content: space-between;
+    }
+   
+
+
+
+    .carousel-container {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        padding: 30px;
+      }
+      .carousel-container h1{
+        color: rgb(192, 116, 17);
+        font-size: 30px;
+       align-items: center;
+       text-align: center;
+       padding: 0;
+       margin: 0;
+      }
+      
+      .carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+      
+      .carousel-item {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .carousel-item img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+      }
+      
+      button {
+        position: absolute;
+        top: 70%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 10;
+        border-radius: 50%;
+      }
+      
+      .prev {
+        left: 5%;
+      }
+      
+      .next {
+        right: 5%;
+      }
+      
+      button:hover {
+        background-color: initial;
+      }
+}
