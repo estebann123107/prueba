@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: auto;
+    margin: 0 auto;
+}
+.header {
+    background-image:
+        url(SunsetSeason.jpg);
+        background-position: center;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.70);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    position: fixed;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(247, 94, 48);
+    transition: 300ms;
+    
+}
+.menu .navbar ul li a:hover{
+    color: antiquewhite;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.header-content{
+    text-align: center;
+}
+
+.logo{
+    color: rgb(247, 94, 48);
+    font-size: 25px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.header-content h1{
+    color:rgb(247, 94, 48);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.header-content h2{
+    color:rgb(247, 94, 48);
+    margin-bottom: 10px;
+    
+}
+.btn-1{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    transition: 300ms;
+}
+.btn-1:hover{
+    background-color:rgb(247, 94, 48);
+    color: aliceblue;
+} 
+.line{
+    background-color: white;
+    color: white;
+    font-size: 1px;
+    opacity: 10%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.list h1{
+    color: rgb(247, 94, 48);
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    
+}
+.list a h2{
+    margin-left: 100px;
+}
+
+.info{
+    color: aliceblue;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: 300ms;
+}
+.info:hover{
+    color: rgb(247, 94, 48);
+    color: rgb(247, 94, 48);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.footer ul li{
+    position: relative;
+    float: left;
+    margin-top: 5%;
+}
+.footer ul li a{
+    font-size: 18px;
+    padding: 30px;
+    color: rgb(247, 94, 48);
+    transition: 300ms;
+}
+.footer ul li a:hover{
+    color: aliceblue;
+}
+
+
+.lyrics{
+    color: white;
+    margin-top: 39px;
+}
+.lyrics h1{
+    color: rgb(247, 94, 48);
+    font-size: 50px;
+    padding: 20px;
+    margin-left: 90px;
+}
+.par1{
+    padding: 5px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.infoli{
+    display: flex;
+    margin: 10px;
+}
+
+.reproductor{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+audio{
+    position: fixed;
+    bottom: 70px;
+    
+}
+
+@media(max-width:991px){
+    .infoli{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .video{
+        padding: 0px;
+        align-items:center;
+        margin-left:0;
+        
+    }
+    .video iframe{
+    max-width:100%;
+    max-height:100%;
+    }
+    .par1{
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .lyrics{
+        align-items: center;
+        padding: 30px;
+        margin: 0;
+    }
+    .lyrics h1{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    
+    .logo{
+        padding: 5px;
+    }
+    .menu{
+        padding: 20px;
+        
+    }
+    .menu label{display: initial;
+    }
+    .menu .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.70);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 60%;
+    margin-right: 2%;
+    display: none;
+    
+    }
+    .menu .navbar ul li{
+        width: 100%;
+        text-align: start;
+        
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+    .list{
+        padding: 30px;
+        align-items: center;
+    }
+    .list h1{
+        text-align: center;
+        margin:0 ;
+    }
+    .footer ul li a:hover{
+        color: rgb(247, 94, 48);
+    }
+    .list .info h2{
+        color: aliceblue;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .list .info h2:hover{
+        color: aliceblue;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .btn-1:hover{
+        background-color: initial;
+        color: aliceblue;}
+    .info:hover{
+            color: aliceblue;}
+    .menu .navbar ul li a:hover{
+        color: rgb(247, 94, 48);
+    
+    }
+    
+}
