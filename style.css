@@ -226,8 +226,11 @@ body{
   .Popular-container {
     position: relative;
     width: 100%;
-    margin: 0 auto;
+    margin:  0;
+    margin-left: 0;
+    margin-right: 0;
     overflow: hidden;
+    background-color: black;
   }
   
   .Popular{
@@ -235,6 +238,7 @@ body{
     font-size: 40px;
     margin-top: 40px;
     margin-left: 100px;
+    margin-bottom: 10px;
   }
   
   .Songs {
@@ -395,12 +399,16 @@ body{
 
     .Popular-container {
         position: relative;
-        width: 100%;
-        margin: 0;
-        padding: 30px;
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px;
         overflow-x: auto; /* Permite el desplazamiento horizontal */
     -webkit-overflow-scrolling: touch; /* Desplazamiento suave en dispositivos táctiles */
     scroll-snap-type: x mandatory; 
+    background-color: rgb(19, 19, 19);
+    border-radius: 5px;
+    margin-bottom: 10px;
       }
     
       .Songs {
@@ -415,10 +423,10 @@ body{
        text-align: center;
        padding: 0;
        margin: 0;
+       margin-bottom: 10px;
       }
       
       .Songs-item {
-        min-width: 100%;
         display: flex;
         
       }
