@@ -164,7 +164,6 @@ body{
 }
 
 .fal{
-    position: relative;
     color: aliceblue;
     text-align: center;
     justify-content: space-between;
@@ -176,7 +175,6 @@ body{
     font-size: 30px;
 }
 .info{
-    position: relative;
     color: aliceblue;
     text-align: left;
     justify-content: space-between;
