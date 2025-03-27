@@ -96,31 +96,28 @@ body{
     background-color:rgb(247, 94, 48);
     color: aliceblue;
 } 
-.line{
-    background-color: white;
-    color: white;
-    font-size: 1px;
-    opacity: 10%;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 10px;
-}
+
 
 .list h1{
     color: rgb(247, 94, 48);
     font-size: 30px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     
 }
 .list a h2{
     margin-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    
 }
 
 .info{
     color: aliceblue;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     transition: 300ms;
 }
@@ -131,8 +128,9 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
-
+.list{
+    margin-top: 0;
+}
 
 .footer{
     display: flex;
@@ -147,7 +145,7 @@ body{
 }
 .footer ul li a{
     font-size: 18px;
-    padding: 30px;
+    padding: 10px;
     color: rgb(247, 94, 48);
     transition: 300ms;
 }
@@ -187,7 +185,9 @@ audio{
     bottom: 70px;
     
 }
-
+.line{
+    display:none
+}
 @media(max-width:991px){
     .infoli{
         flex-direction: column;
@@ -229,28 +229,39 @@ audio{
     }
     .menu label{display: initial;
     }
-    .menu .navbar{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.70);
-    backdrop-filter: blur(5px);
-    border-radius: 10px;
-    margin-top: 2%;
-    margin-left: 60%;
-    margin-right: 2%;
-    display: none;
-    
-    }
-    .menu .navbar ul li{
-        width: 100%;
-        text-align: start;
+    .navbar{
+        background-color: #000000;
+            position: fixed;
+            backdrop-filter: blur(5px);
+            top: 100%;
+            left: 0;
+            right: 0;
+            border-radius: 10px;
+            opacity: 0%;
+            transform: translateX(100%);
+            transition: 0.3s;
+            margin-top: 2%;
+            margin-left: 60%;
+            margin-right: 2%;
+            margin-bottom: 2%;
         
-    }
-    #menu:checked ~ .navbar{
-        display: initial;
-    }
+        }
+        .menu .navbar ul li{
+            width: 100%;
+            text-align: start;
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        #menu:checked ~ .navbar{
+            opacity: 100%;
+            background-color: #000000b2;
+            transform: translateX(0%);
+            
+        }
+        .menu .navbar ul li a:hover{
+            color: rgb(247, 94, 48);
+        
+        }
     .header{
         min-height: 0vh;
     }
@@ -271,14 +282,14 @@ audio{
     .list .info h2{
         color: aliceblue;
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 10px;
     }
     
     .list .info h2:hover{
         color: aliceblue;
         margin-left: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 10px;
     }
     .btn-1:hover{

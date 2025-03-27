@@ -312,7 +312,7 @@ body{
     .menu label{display: initial;
     }
     .navbar{
-        background-color: #04060a6c;
+        background-color: #000000;
             position: fixed;
             backdrop-filter: blur(5px);
             top: 100%;
@@ -336,6 +336,7 @@ body{
         }
         #menu:checked ~ .navbar{
             opacity: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
             transform: translateX(0%);
             
         }
@@ -351,7 +352,7 @@ body{
     }
     .btn-1:hover{
         background-color: initial;
-        color: aliceblue;
+        color: rgb(19, 120, 235);
     } 
 
     .Albums{
