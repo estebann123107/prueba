@@ -306,6 +306,7 @@ audio{
     }
     .video{
         padding: 0px;
+        padding-bottom: 25px;
         align-items:center;
         margin-left:0;
         
