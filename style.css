@@ -422,6 +422,10 @@ body{
     border-radius: 5px;
     margin-bottom: 10px;
       }
+    .Popular-container::-webkit-scrollbar{
+        display: none;
+    }
+        
     
       .Songs {
         display: flex;
