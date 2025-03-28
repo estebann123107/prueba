@@ -403,7 +403,7 @@ body{
         
         }
     .header{
-        min-height: 0vh;
+        min-height: 80vh;
     }
     .header-content{
         padding: 100px 30px;
