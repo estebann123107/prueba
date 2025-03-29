@@ -224,13 +224,13 @@ body{
     padding: 30px;
     opacity: 0%;
     transform: translateX(100%);
-    transition: 0.3s;
+    transition: 0.6s ease-in-out;
     
 }
 .video h2{
     color:rgb(19, 120, 235);
     padding-left: 80px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 .vidu{
     display: flex;
@@ -292,7 +292,7 @@ audio{
         padding: 20px;
         opacity: 0%;
         transform: translateX(100%);
-        transition: 0.3s;
+        transition: 0.6s ease-in-out;
         margin: 0;
         min-width: 100%;
         min-height: 100%;
@@ -377,7 +377,7 @@ audio{
             border-radius: 10px;
             opacity: 0%;
             transform: translateX(100%);
-            transition: 0.3s;
+            transition: 0.3s ease-in-out;
             margin-top: 2%;
             margin-left: 60%;
             margin-right: 2%;

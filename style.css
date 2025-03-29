@@ -45,7 +45,7 @@ body{
     font-size: 18px;
     padding: 20px;
     color: rgb(19, 120, 235);
-    transition: 300ms;
+    transition: 300ms ease-in-out;
     
 }
 .menu .navbar ul li a:hover{
@@ -96,7 +96,7 @@ body{
     color:rgb(19, 120, 235);
     border-radius: 10px;
     border: 1px solid rgb(19, 120, 235);
-    transition: 300ms;
+    transition: 300ms ease-in-out;
 }
 .btn-1:hover{
     background-color: rgb(19, 120, 235);
@@ -151,6 +151,7 @@ body{
     }
 }
 .Cover{
+    transition: ease-in-out;
 	animation: scroll1 linear;
     animation-timeline: view();
     animation-range: entry 20% contain 10%;
@@ -159,7 +160,7 @@ body{
 .Cover img{
     width: 250px;
     border-radius: 10px;
-    transition: 300ms;
+    transition: 300ms ease-in-out;
 }
 .Cover:hover img{
     width: 260px;
@@ -200,7 +201,6 @@ body{
 
 .tour-content h2{
     color: rgb(19, 120, 235);
-    ;
     font-size: 40px;
 }
 
@@ -256,7 +256,7 @@ body{
     font-size: 18px;
     padding: 20px;
     color: rgb(19, 120, 235);
-    transition: 300ms;
+    transition: 300ms ease-in-out;
 }
 .footer ul li img{
     width: 10px;
@@ -266,6 +266,7 @@ body{
 }
 
   .Populara{
+    transition: ease-in-out;
     animation: scroll2 linear;
     animation-timeline: view();
     animation-range: entry 20% contain 10%;
@@ -292,7 +293,7 @@ body{
   
   .Songs {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease-in-out;
     margin: 0;
     padding: 0;
   }
@@ -305,7 +306,7 @@ body{
     align-items: center;
     background: linear-gradient(0, 0, 0, 0.7);
     opacity: 100%;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
     width: 100%;
    
   }
@@ -325,7 +326,7 @@ body{
   .Songs-item img {
     width: 200px;
     height: 200px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
   }
   
 
@@ -367,7 +368,7 @@ body{
             border-radius: 10px;
             opacity: 0%;
             transform: translateX(100%);
-            transition: 0.3s;
+            transition: 0.3s ease-in-out;
             margin-top: 2%;
             margin-left: 60%;
             margin-right: 2%;
