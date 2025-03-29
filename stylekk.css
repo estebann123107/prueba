@@ -278,14 +278,10 @@ audio{
 @media(max-width:991px){
     
     .info h2{
-        view-timeline-name: --image;
         view-timeline-axis: block;
-    
-        animation-timeline: --image;
+        animation-timeline: view();
         animation-name: scroll1;
-    
-        animation-range: entry 40% cover 20%;
-        animation-fill-mode: both;
+        animation-range: entry -15%;
     }
     
     

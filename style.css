@@ -151,14 +151,11 @@ body{
     }
 }
 .Cover{
-    view-timeline-name: --image;
 	view-timeline-axis: block;
-
-	animation-timeline: --image;
+	animation-timeline: view();
 	animation-name: scroll1;
-
-	animation-range: entry 25% cover 30%;
-	animation-fill-mode: both;
+	animation-range: entry -15%;
+	
 }
 .Cover img{
     width: 250px;
@@ -193,14 +190,10 @@ body{
    text-align: center;
    transition: ease-in-out;
    margin-bottom: 200px;
-   view-timeline-name: --image;
    view-timeline-axis: block;
-
-   animation-timeline: --image;
+   animation-timeline: view();
    animation-name: scroll2;
-
-   animation-range: entry 25% cover 30%;
-   animation-fill-mode: both;
+   animation-range: entry -15%;
    
 }
 
@@ -274,15 +267,10 @@ body{
 }
 
   .Populara{
-    view-timeline-name: --image;
-	view-timeline-axis: block;
-
-	animation-timeline: --image;
-	animation-name: scroll2;
-
-	animation-range: entry 25% cover 30%;
-	animation-fill-mode: both;
-    
+    view-timeline-axis: block;
+	animation-timeline: view();
+	animation-name: scroll1;
+	animation-range: entry -15%;
   }
 
   .Popular-container {
