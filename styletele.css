@@ -15,7 +15,7 @@ body{
 }
 .header {
     background-image:
-        url(KitKrow.jpeg);
+        url(telepath.jpg);
         background-position: center;
         background-size: cover;
         min-height: 80vh;
@@ -44,7 +44,7 @@ body{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
     transition: 300ms;
     
 }
@@ -67,19 +67,19 @@ body{
 }
 
 .logo{
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
     font-size: 25px;
     font-weight: 800;
     padding: 20px;
 }
 
 .header-content h1{
-    color:rgb(19, 120, 235);
+    color:rgb(221, 212, 82);
     font-size: 50px;
     margin-bottom: 10px;
 }
 .header-content h2{
-    color:rgb(19, 120, 235);
+    color:rgb(221, 212, 82);
     margin-bottom: 10px;
     
 }
@@ -95,12 +95,12 @@ body{
     transition: 300ms;
 }
 .btn-1:hover{
-    background-color:rgb(19, 120, 235);
+    background-color:rgb(221, 212, 82);
     color: aliceblue;
 } 
 
 .list h1{
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
     font-size: 30px;
     margin-left: 100px;
     padding-top: 30px;
@@ -140,8 +140,8 @@ body{
     transition: 300ms;
 }
 .info:hover{
-    color: rgb(19, 120, 235);
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
+    color: rgb(221, 212, 82);
     margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -164,7 +164,7 @@ body{
 .footer ul li a{
     font-size: 18px;
     padding: 10px;
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
     transition: 300ms;
 }
 .footer ul li a:hover{
@@ -177,7 +177,7 @@ body{
     margin-top: 39px;
 }
 .lyrics h1{
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
     font-size: 50px;
     padding: 20px;
     margin-left: 60px;
@@ -196,7 +196,7 @@ body{
     display: none;
 }
 .infoli h2{
-    color:rgb(19, 120, 235);
+    color:rgb(221, 212, 82);
     padding-left: 80px;
 }
 #trans:checked~.par1e{
@@ -228,7 +228,7 @@ body{
     
 }
 .video h2{
-    color:rgb(19, 120, 235);
+    color:rgb(221, 212, 82);
     padding-left: 80px;
     transition: 0.3s;
 }
@@ -242,7 +242,7 @@ body{
     display: none;
 }
 .videom h1{
-    color: rgb(19, 120, 235);
+    color: rgb(221, 212, 82);
     opacity: 100%;
     padding: 0;
     margin: 0;
@@ -305,7 +305,7 @@ audio{
         
     }
     .vidu h2:hover{
-        color: rgb(19, 120, 235);
+        color: rgb(221, 212, 82);
     }
     .video h2{
         padding-left: 40px;
@@ -321,7 +321,7 @@ audio{
         margin: 10px;
     }
     .infoli h2{
-        color:rgb(19, 120, 235);
+        color:rgb(221, 212, 82);
         padding-left: 10px;
     }
     .par1e{
@@ -397,7 +397,7 @@ audio{
             
         }
         .menu .navbar ul li a:hover{
-            color: rgb(19, 120, 235);
+            color: rgb(221, 212, 82);
         
         }
     .header{
@@ -417,7 +417,7 @@ audio{
         margin:0 ;
     }
     .footer ul li a:hover{
-        color: rgb(19, 120, 235);
+        color: rgb(221, 212, 82);
     }
     .list .info h2{
         color: aliceblue;
@@ -438,7 +438,7 @@ audio{
     .info:hover{
             color: aliceblue;}
     .menu .navbar ul li a:hover{
-        color: rgb(19, 120, 235);
+        color: rgb(221, 212, 82);
     
     }
     
