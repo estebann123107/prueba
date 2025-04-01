@@ -175,49 +175,49 @@ const list = {
         link2:"Lyrics.html?Song=NeverEndingSong",
         mostrarCancion2: true,
 
-        third:"3. ",
-        link3:"Lyrics.html?Song=",
+        third:"3. Fainted Love",
+        link3:"Lyrics.html?Song=Faintedlove",
         mostrarCancion3: true,
 
-        four:"4. ",
-        link4:"Lyrics.html?Song=",
+        four:"4. Lonely Dancers",
+        link4:"Lyrics.html?Song=LonelyDancers",
         mostrarCancion4: true,
 
-        five: "5. ",
-        link5:"Lyrics.html?Song=",
+        five: "5. Alley Rose",
+        link5:"Lyrics.html?Song=AlleyRose",
         mostrarCancion5: true,
 
-        six: "6. ",
+        six: "6. The Final Fight",
         mostrarCancion6: true,
-        link6:"Lyrics.html?Song=",
+        link6:"Lyrics.html?Song=TheFinalFight",
 
-        seven: "7. ",
+        seven: "7. Miss You",
         mostrarCancion7: true,
-        link7:"Lyrics.html?Song=",
+        link7:"Lyrics.html?Song=MissYou",
 
-        eight: "8. ",
+        eight: "8. Bourgeoisieses",
         mostrarCancion8: true,
-        link8:"Lyrics.html?Song=",
+        link8:"Lyrics.html?Song=Bourgeoisieses",
 
-        nine: "9. ",
+        nine: "9. Forever With Me",
         mostrarCancion9: true,
-        link9:"Lyrics.html?Song=",
+        link9:"Lyrics.html?Song=ForeverWithMe",
 
-        ten: "10. ",
+        ten: "10. Eye Of The Night",
         mostrarCancion10: true,
-        link10:"Lyrics.html?Song=",
+        link10:"Lyrics.html?Song=EyeOfTheNight",
 
-        eleven: "11. ",
+        eleven: "11. Boys And Girls",
         mostrarCancion11: true,
-        link11:"Lyrics.html?Song=",
+        link11:"Lyrics.html?Song=BoysAndGirls",
 
-        twelve: "12. ",
+        twelve: "12. Killing Me",
         mostrarCancion12: true,
-        link12:"Lyrics.html?Song=",
+        link12:"Lyrics.html?Song=Killing Me",
 
-        thirteen: "13. ",
+        thirteen: "13. Winner",
         mostrarCancion13: true,
-        link13:"Lyrics.html?Song=",  
+        link13:"Lyrics.html?Song=Winner",  
     },
 };
 function obtenerParametro(nombre){
