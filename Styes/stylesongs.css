@@ -15,7 +15,7 @@ body{
 }
 .header {
     background-image:
-        url(KitKrow.jpeg);
+        url(/Images/KitKrow.jpeg);
         background-position: center;
         align-items: center;
          background-size: cover;
@@ -406,7 +406,7 @@ audio{
     }
     .list .info {
         color: aliceblue;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
