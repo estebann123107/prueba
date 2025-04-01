@@ -31,7 +31,7 @@ const Albums = [
 const albumsGroup = document.querySelector('.Albumsgroup')
 
 
-
+ 
 Albums.forEach(album => {
     const albumTemplete = template.content.cloneNode(true).querySelector('.Cover')
     const link = albumTemplete.querySelector('a')
