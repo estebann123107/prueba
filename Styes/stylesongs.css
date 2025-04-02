@@ -7,7 +7,7 @@
 }
 :root{
     --colorTexto:  rgb(245, 106, 81);
-    --fondo:url('/images/SunsetSeason.jpeg')
+    --fondo:url('/Images/SunsetSeason.jpeg')
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

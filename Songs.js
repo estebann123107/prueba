@@ -2,7 +2,7 @@ const list = {
     Sunsetseason :{
         tittle: "Sunset Season",
         textColor: "rgb(245, 106, 81)",
-        fondo:"/images/SunsetSeason.jpeg",
+        fondo:"/Images/SunsetSeason.jpeg",
         first:"1. Idle Town",
         link1:"Lyrics.html?Song=IdleTown",
         mostrarCancion1: true,
@@ -57,7 +57,8 @@ const list = {
     },
     KidKrow :{
         tittle: "Kid Krow",
-
+        textColor:"rgb(19, 120, 235)",
+        fondo:"/Images/BedRest.png",
         first:"1. Confort Crowd",
         link1:"Lyrics.html?Song=ConfortCrowd",
         mostrarCancion1: true,
@@ -112,7 +113,8 @@ const list = {
     },
     Superache :{
         tittle: "Superache",
-
+        textColor:"darksalmon",
+        fondo:"/Images/Superache.jpg",
         first:"1. Movies",
         link1:"Lyrics.html?Song=Movies",
         mostrarCancion1: true,
@@ -167,7 +169,8 @@ const list = {
     },
     FoundHeaven :{
         tittle: "Found Heaven",
-
+        textColor:"darkkhaki",
+        fondo:"/Images/FoundHeven.jpeg",
         first:"1. Found Heaven",
         link1:"Lyrics.html?Song=FoundHeaven",
         mostrarCancion1: true,
@@ -229,9 +232,8 @@ function obtenerParametro(nombre){
 
 const albumKey = obtenerParametro("album");
 
-if(list[albumKey]){
-    document.body.style.color = list[albumKey].textColor
-}
+
+document.documentElement.style.setProperty("--textColor", albums[sonKey].textColor)
 
 //link para letras
 if(list[albumKey]){
