@@ -224,6 +224,7 @@ const list = {
         link13:"Lyrics.html?Song=Winner",  
     },
 };
+document.documentElement.style.setProperty("--textColor", albums[sonKey].textColor)
 function obtenerParametro(nombre){
     const params = new
     URLSearchParams(window.location.search);
@@ -233,7 +234,7 @@ function obtenerParametro(nombre){
 const albumKey = obtenerParametro("album");
 
 
-document.documentElement.style.setProperty("--textColor", albums[sonKey].textColor)
+
 
 //link para letras
 if(list[albumKey]){
