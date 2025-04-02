@@ -21,7 +21,7 @@ const list ={
     },
     CrushCulture:{
         tittle:"Crush Culture",
-        back:"Songs.html?album=FoundHeaven",
+        back:"Songs.html?album=SunsetSeason",
         textColor: "rgb(245, 106, 81)",
         fondo:"/Images/SunsetSeason.jpg",
         letra:"",
