@@ -5,6 +5,7 @@ const list ={
         fondo:"/Images/SunsetSeason.jpg",
         letra:"letra",
         traduccion:"traduccion",
+        video:"https://www.youtube.com/embed/BI5_hpUxDrM?si=m_Tk3-jIMy_KfFTD"
     }
 }
 
@@ -35,3 +36,7 @@ if (list[songKey]){
 //traduccion
 if (list[songKey]){
     document.getElementById("traduccion").innerText = list[songKey].traduccion}
+
+//video
+if (list[songKey]){
+    document.getElementById("video").src = list[songKey].video}
