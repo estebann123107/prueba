@@ -230,7 +230,7 @@ function obtenerParametro(nombre){
 const albumKey = obtenerParametro("album");
 
 if(list[albumKey]){
-    document.body.style.color = list[albumKey].textColor
+    document.styleSheets.h1.color = list[albumKey].textColor
 }
 
 //link para letras
