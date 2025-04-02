@@ -2,7 +2,7 @@ const list = {
     Sunsetseason :{
         tittle: "Sunset Season",
         textColor: "rgb(245, 106, 81)",
-        fondo:"/Images/SunsetSeason.jpeg",
+        fondo:"/images/SunsetSeason.jpg",
         first:"1. Idle Town",
         link1:"Lyrics.html?Song=IdleTown",
         mostrarCancion1: true,
@@ -170,7 +170,7 @@ const list = {
     FoundHeaven :{
         tittle: "Found Heaven",
         textColor:"darkkhaki",
-        fondo:"/Images/FoundHeven.jpeg",
+        fondo:"/Images/FoundHeavent.jpeg",
         first:"1. Found Heaven",
         link1:"Lyrics.html?Song=FoundHeaven",
         mostrarCancion1: true,
@@ -224,7 +224,7 @@ const list = {
         link13:"Lyrics.html?Song=Winner",  
     },
 };
-document.documentElement.style.setProperty("--colorTexto", list[albumKeyKey].textColor);
+
 function obtenerParametro(nombre){
     const params = new
     URLSearchParams(window.location.search);
@@ -233,7 +233,12 @@ function obtenerParametro(nombre){
 
 const albumKey = obtenerParametro("album");
 
-
+if(list[albumKey]){
+    document.documentElement.style.setProperty("--colorTexto",list[albumKey].textColor);
+}
+if(list[albumKey]){
+    document.documentElement.style.setProperty("--fondo", `url(${list[albumKey].fondo})`);
+}
 
 
 //link para letras
