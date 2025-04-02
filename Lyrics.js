@@ -44,7 +44,7 @@ if (list[songKey]){
 
 //audio
 if (list[songKey]){
-    const audio = getElementById('audios');
+    const audio = getElementById("audios");
     audio.src = list[songKey].reproductor
     audio.load();
 }
