@@ -20,3 +20,5 @@ if(list[songKey]){
 if(list[songKey]){
     document.documentElement.style.setProperty("--fondo", `url(${list[songKey].fondo})`);
 }
+if (list[songKey]){
+    document.getElementById("tittle").innerText = list[songKey].tittle}
