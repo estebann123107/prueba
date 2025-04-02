@@ -2,7 +2,7 @@ const list = {
     Sunsetseason :{
         tittle: "Sunset Season",
         textColor: "rgb(245, 106, 81)",
-        fondo:"/images/SunsetSeason.jpg",
+        fondo:"/Images/SunsetSeason.jpg",
         first:"1. Idle Town",
         link1:"Lyrics.html?Song=IdleTown",
         mostrarCancion1: true,
