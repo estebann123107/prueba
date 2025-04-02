@@ -1,7 +1,8 @@
 const list = {
     Sunsetseason :{
         tittle: "Sunset Season",
-
+        textColor: "rgb(245, 106, 81)",
+        fondo:"/images/SunsetSeason.jpeg",
         first:"1. Idle Town",
         link1:"Lyrics.html?Song=IdleTown",
         mostrarCancion1: true,
@@ -227,6 +228,10 @@ function obtenerParametro(nombre){
 }
 
 const albumKey = obtenerParametro("album");
+
+if(list[albumKey]){
+    document.styleSheets.h1.color = list[albumKey].textColor
+}
 
 //link para letras
 if(list[albumKey]){
