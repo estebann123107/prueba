@@ -21,7 +21,7 @@ const list ={
     },
     CrushCulture:{
         tittle:"Crush Culture",
-        back:"Songs.html?album=Sunsetseason",
+        back:"Songs.html?album=FoundHeaven",
         textColor: "rgb(245, 106, 81)",
         fondo:"/Images/SunsetSeason.jpg",
         letra:"",
@@ -34,6 +34,7 @@ const list ={
  /*   :{
         tittle:"",
         textColor: "rgb(245, 106, 81)",
+         back:"Songs.html?album=",
         fondo:"/Images/SunsetSeason.jpg",
         letra:"",
         traduccion:"",
@@ -61,7 +62,7 @@ if(list[songKey]){
 if (list[songKey]){
     document.getElementById("back").href = list[songKey].back}
 
-    
+
 //titulo
 if (list[songKey]){
     document.getElementById("tittle").innerText = list[songKey].tittle}
