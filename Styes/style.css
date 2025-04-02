@@ -176,7 +176,7 @@ body{
     color: rgb(19, 120, 235);
 }
 .Cover:hover .sup{
-    color: darksalmon;
+    color: rgb(253, 76, 53);
 }
 .Cover:hover .fh{
     color: darkkhaki;

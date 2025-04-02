@@ -113,7 +113,7 @@ const list = {
     },
     Superache :{
         tittle: "Superache",
-        textColor:"darksalmon",
+        textColor:"rgb(253, 76, 53)",
         fondo:"/Images/Superache.jpg",
         first:"1. Movies",
         link1:"Lyrics.html?Song=Movies",
