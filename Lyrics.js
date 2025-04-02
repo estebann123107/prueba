@@ -31,6 +31,7 @@ const list ={
     },
 
 }
+
  /*   :{
         tittle:"",
         textColor: "rgb(245, 106, 81)",
@@ -42,6 +43,7 @@ const list ={
         reproductor:"/Audios/.mp3"
     }
       */  
+
 function obtenerParametro(nombre){
     const params = new
     URLSearchParams(window.location.search);
