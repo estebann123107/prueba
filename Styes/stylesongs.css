@@ -92,9 +92,9 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: aliceblue;
+    color: var(--colorTexto);
     border-radius: 10px;
-    border: 1px solid #FFF;
+    border: 1px solid var(--colorTexto);
     transition: 300ms;
 }
 .btn-1:hover{
