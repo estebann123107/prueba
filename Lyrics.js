@@ -82,9 +82,9 @@ const list ={
     },
     Overdrive:{
         tittle:"Overdrive",
-        textColor: "rgb(19, 120, 235)",
+        textColor: "rgb(252, 255, 61)",
         back:"index.html",
-        fondo:"/Images/BedRest.webp",
+        fondo:"/Images/overdrive.jpg",
         letra:"Not yet D:",
         traduccion:"Working on it :D",
         video:"https://www.youtube.com/embed/NDpwh0pCXDw?si=wTcANCSGjEVWfKYG",
