@@ -421,7 +421,7 @@ audio{
     }
     .btn-1:hover{
         background-color: initial;
-        color: aliceblue;}
+        color: var(--colorTexto);}
     .info:hover{
             color: aliceblue;}
     .menu .navbar ul li a:hover{
