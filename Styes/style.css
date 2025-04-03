@@ -15,7 +15,7 @@ body{
 }
 .header {
     background-image:
-        url(/Images/BedRest.png);
+        url(/Images/BedRest.webp);
         background-position: center;
         background-size: cover;
         min-height: 80vh;

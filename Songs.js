@@ -58,7 +58,7 @@ const list = {
     KidKrow :{
         tittle: "Kid Krow",
         textColor:"rgb(19, 120, 235)",
-        fondo:"/Images/BedRest.png",
+        fondo:"/Images/BedRest.webp",
         first:"1. Confort Crowd",
         link1:"Lyrics.html?Song=ConfortCrowd",
         mostrarCancion1: true,

@@ -23,7 +23,7 @@ const Albums = [
     {
         title: 'Found Heaven',
         link: 'Songs.html?album=FoundHeaven',
-        image: 'Images/FoundHeaven.jpeg',
+        image: 'Images/FoundHeaven.webp',
         class: 'fh'
     },
 ]
