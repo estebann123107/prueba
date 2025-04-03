@@ -151,27 +151,3 @@ if (list[songKey]){
 
 
 
-let player;
-
-  // Función que se ejecuta cuando la API de YouTube está lista
-  function onYouTubeIframeAPIReady() {
-      player = new YT.Player('video', {
-          events: {
-              'onReady': checkOpacity
-          }
-      });
-  }
-
-  function checkOpacity() {
-    const videoContainer = document.getElementById("videoContainer");
-    const opacity = window.getComputedStyle(videom).getPropertyValue("opacity");
-
-    if (opacity === "0" && player) {
-        player.pauseVideo();
-    } else if (opacity === "1" && player) {
-        player.playVideo();
-    }
-}
-const observer = new MutationObserver(checkOpacity);
-  observer.observe(document.getElementById("videoContainer"), { attributes: true, attributeFilter: ["style"] });
-
