@@ -80,6 +80,16 @@ const list ={
         video:"https://www.youtube.com/embed/hEDBZtmKPmg?si=pN282vcfyZUGaWf_",
         reproductor:"/Audios/wyws.mp3"
     },
+    Overdrive:{
+        tittle:"Overdrive",
+        textColor: "rgb(19, 120, 235)",
+        back:"index.html",
+        fondo:"/Images/BedRest.webp",
+        letra:"Not yet D:",
+        traduccion:"Working on it :D",
+        video:"https://www.youtube.com/embed/NDpwh0pCXDw?si=wTcANCSGjEVWfKYG",
+        reproductor:"/Audios/overdrive.mp3"
+    },
 }
 
  /*   :{
