@@ -34,7 +34,7 @@ const list ={
         textColor: "rgb(245, 106, 81)",
         back:"Songs.html?album=Sunsetseason",
         fondo:"/Images/SunsetSeason.jpg",
-        letra:"",
+        letra:"working on it :D",
         traduccion:"Not avalible for now :(",
         video:"https://www.youtube.com/embed/5AZYUT5Sn38?si=8Gs3bStK0BMLQffC",
         reproductor:"/Audios/GreekGod.mp3"
