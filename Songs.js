@@ -60,7 +60,7 @@ const list = {
         textColor:"rgb(19, 120, 235)",
         fondo:"/Images/BedRest.webp",
         first:"1. Confort Crowd",
-        link1:"Lyrics.html?Song=ConfortCrowd",
+        link1:"Lyrics.html?Song=ComfortCrowd",
         mostrarCancion1: true,
 
         second:"2. Wish You Were Sober",
