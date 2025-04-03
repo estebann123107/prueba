@@ -1,4 +1,15 @@
 const list ={
+   
+    Telepath:{
+        tittle:"",
+        textColor: "rgb(252, 255, 61)",
+        back:"index.html",
+        fondo:"/Images/telepath.jpg",
+        letra:"",
+        traduccion:"",
+        video:"https://www.youtube.com/embed/6kiYXT8frBo?si=2GGll7Ssyv49sXDg",
+        reproductor:"/Audios/Telepath.mp3"
+    },
     IdleTown:{
         tittle:"Idle Town",
         back:"Songs.html?album=Sunsetseason",
