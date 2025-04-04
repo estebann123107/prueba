@@ -160,6 +160,16 @@ const list ={
         video:"https://www.youtube.com/embed/w6zoRUdZKU4?si=DJW-Q7SfOiTdG84v",
         reproductor:"/Audios/Affluenza.mp3"
     },
+    CanWeBeFriends:{
+        tittle:"(Can We Be Friend)",
+        textColor: "rgb(19, 120, 235)",
+        back:"Songs.html?album=KidKrow",
+        fondo:"/Images/BedRest.webp",
+        letra:"Could you be my best friend?\nLet's hang out every weekend\nWe're driving every night\nStare at people that we like\nCould you be my best friend?\nI'll tell you all my secrets\nI'll tell you all the times\nThat I wished that I could die\n\nAnd if anybody fucks with you\nThey fuck with me\nSo, if anybody fucks with you\nI'll knock their teeth out (yeah)\nCould you be my best friend?\nCan we be friends?\nCould you be my best friend?\nCan we be friends?",
+        traduccion:"¿Podrías ser mi mejor amigo?\nSalgamos todos los fines de semanas\nConducimos todas las noches\nMiramos a la gente que nos gusta\n¿Podrías ser mi mejor amigo?\nTe contaré todos mis secretos\nTe contaré todas las veces\nQue deseé poder morir\n\nY si alguien te jode\nMe joden a mi\nEntonces, si alguien te jode\nLes sacaré los dientes (sí)\n¿Podrías ser mi mejor amigo?\n¿Podemos ser amigos?\n¿Podrías ser mi mejor amigo?\n¿Podemos ser amigos?",
+        video:"https://www.youtube.com/embed/x8HyzA2XLwY?si=n7BfwGef1guWDuoy",
+        reproductor:"/Audios/CanWeBeFriends.mp3"
+    }
 }
 
  /*   :{
