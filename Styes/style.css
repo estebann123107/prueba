@@ -154,7 +154,7 @@ body{
     transition: ease-in-out;
 	animation: scroll1 linear;
     animation-timeline: view();
-    animation-range: entry 0% contain 10%;
+    animation-range: entry -5% contain 10%;
     animation-fill-mode: both;
 }
 .Cover img{
@@ -192,7 +192,7 @@ body{
    margin-bottom: 200px;
    animation: scroll2 linear;
     animation-timeline: view();
-    animation-range: entry 0% contain 10%;
+    animation-range: entry -5% contain 10%;
     animation-fill-mode: both;
    
 }
@@ -269,7 +269,7 @@ body{
     transition: ease-in-out;
     animation: scroll2 linear;
     animation-timeline: view();
-    animation-range: entry 0% contain 10%;
+    animation-range: entry -5% contain 10%;
     animation-fill-mode: both;
   }
 
