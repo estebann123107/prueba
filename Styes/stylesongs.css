@@ -6,7 +6,7 @@
     list-style: none;
 }
 :root{
-    --colorTexto:  rgb(245, 106, 81);
+    --colorTexto:  rgb(0, 0, 0);
     --fondo:url('/Images/SunsetSeason.jpeg')
 }
 body{
