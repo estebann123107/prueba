@@ -109,7 +109,18 @@ const list ={
         traduccion:"(Maníaco)\n\nEstabas con tus amigos, de fiesta\nCuando el alcohol hizo efecto\nDijiste que querías verme muerto\nAsí que llegas a mi casa, solo\nCon una pala y una rosa\n¿Acaso crees que soy una broma?\n\nPorque la gente como tú siempre quiere lo que no puede tener\nPero yo ya pasé por eso, y lo sabes\nAsí que deberías volver con tu grupo de ratas y decirles que soy basura\n\nDile a todos tus amigos que estoy loco y te vuelvo loco\nQue soy un acosador, un vigilante, un psicópata\nY diles que me odias y que saliste conmigo solo por diversión\nEntonces, ¿por qué me llamas y me dices que me quieres de vuelta?\nEres un maníaco\n\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un)\n\nTe pasaste de la raya\nDestrozaste tu auto, me llamaste llorando en la oscuridad\nAhora estás rompiéndome el corazón\nAsí que llego a tu casa de inmediato\nLimpiando las lágrimas de tu rostro\nMientras me ruegas que me quede\n\nBueno, la gente como tú siempre quiere lo que no puede tener\nPero yo ya pasé por eso, y lo sabes\nAsí que deberías volver con tu grupo de ratas y decirles que soy basura\n\nDile a todos tus amigos que estoy loco y te vuelvo loco\nQue soy un acosador, un vigilante, un psicópata\nY diles que me odias y que saliste conmigo solo por diversión\nEntonces, ¿por qué me llamas y me dices que me quieres de vuelta?\nEres un maníaco\n\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un)\n\nPsicopático, no seas tan dramático\nTuvimos magia, pero lo hiciste trágico\nAhora estás maniaca, honestamente, ya no aguanto\nEscúchate a ti mismo, creo que necesitas ayuda\n\nDile a todos tus amigos que estoy loco y te vuelvo loco\nQue soy un acosador, un vigilante, un psicópata\nY diles que me odias y que saliste conmigo solo por diversión\nEntonces, ¿por qué me llamas y me dices que me quieres de vuelta?\nEres un maníaco\n\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un) maníaco\n(Maníaco, algunos dirían que soy un)",
         video:"https://www.youtube.com/embed/-E-_IRJU5w0?si=jkpGb4n74YD78KUe",
         reproductor:"/Audios/maniac.mp3"
-    }
+    },
+    OnlineLove:{
+        tittle:"(Online Love)",
+        textColor: "rgb(19, 120, 235)",
+        back:"Songs.html?album=KidKrow",
+        fondo:"/Images/BedRest.webp",
+        letra:"You only pass through my city\nEvery once in a million seconds on a broken clock\nYet we talk like we're living\nOnly miles, only minutes from another just around the block\nAs I stare at my screen, shining blue and green\nAll alone in a coffee shop\nI can't help but imagine what maybe could've happened\nIf you weren't just an online love\n\nSometimes I say hi and he, like, doesn't answer\nMaybe, okay, maybe he's just in a bad mood\nI think he's just, I think he's just going through something\n(Delete)",
+        traduccion:"Solo pasas por mi ciudad\nCada vez que el reloj se descompone, en uno de esos raros momentos\nY aun así, hablamos como si viviéramos\nA solo unas calles de distancia, como si estuviéramos cerca el uno del otro\nMientras miro mi pantalla, brillando en azul y verde\nSolo, en una cafetería\nNo puedo evitar imaginar lo que pudo haber pasado\nSi no fueras solo un amor en línea\n\nA veces te saludo y tú no contestas\nQuizás, tal vez, solo estás de mal humor\nCreo que solo estás pasando por algo\n(Borrar)",
+        video:"https://www.youtube.com/embed/er7ZrLsp5g0?si=ECIQ5lwlTfEVtEo2",
+        reproductor:"/Audios/OnlineLove.mp3"
+    },
+    
 }
 
  /*   :{
