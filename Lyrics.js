@@ -169,6 +169,16 @@ const list ={
         traduccion:"¿Podrías ser mi mejor amigo?\nSalgamos todos los fines de semanas\nConducimos todas las noches\nMiramos a la gente que nos gusta\n¿Podrías ser mi mejor amigo?\nTe contaré todos mis secretos\nTe contaré todas las veces\nQue deseé poder morir\n\nY si alguien te jode\nMe joden a mi\nEntonces, si alguien te jode\nLes sacaré los dientes (sí)\n¿Podrías ser mi mejor amigo?\n¿Podemos ser amigos?\n¿Podrías ser mi mejor amigo?\n¿Podemos ser amigos?",
         video:"https://www.youtube.com/embed/x8HyzA2XLwY?si=n7BfwGef1guWDuoy",
         reproductor:"/Audios/CanWeBeFriends.mp3"
+    },
+    Heather:{
+        tittle:"Heather",
+        textColor: "rgb(19, 120, 235)",
+        back:"Songs.html?album=KidKrow",
+        fondo:"/Images/BedRest.webp",
+        letra:"I still remember third of December, me in your sweater\nYou said it looked better on me than it did you\nOnly if you knew how much I liked you\nBut I watch your eyes as she\n\nWalks by\nWhat a sight for sore eyes, brighter than a blue sky\nShe's got you mesmerized while I die\n\nWhy would you ever kiss me?\nI'm not even half as pretty\nYou gave her your sweater, it's just polyester\nBut you like her better\n(Wish I were Heather)\n\nWatch as she stands with her holding your hand\nPut your arm 'round her shoulder, now I'm getting colder\nBut how could I hate her? She's such an angel\nBut then again, kinda wish she were dead as she\n\nWalks by\nWhat a sight for sore eyes, brighter than a blue sky\nShe's got you mesmerized while I die\n\nWhy would you ever kiss me?\nI'm not even half as pretty\nYou gave her your sweater, it's just polyester\nBut you like her better\nI wish I were Heather\n\n(Oh) wish I were Heather\n(Oh, oh) wish I were Heather\n\nWhy would you ever kiss me?\nI'm not even half as pretty\nYou gave her your sweater, it's just polyester\nBut you like her better\nWish I were",
+        traduccion:"Todavía recuerdo ese tres de diciembre, yo con tu suéter\nDijiste que se veía mejor en mí que en ti\nSi tan solo supieras cuánto me gustabas\nPero miro tus ojos mientras ella\n\nMientras ella pasa\nQué espectáculo para los ojos cansados, más brillantes que el cielo azul\nElla te tiene hipnotizado mientras me muero\n\n¿Por qué me besarías?\nNo tengo ni la mitad de su belleza\nLe diste tu suéter, es solo poliéster\nPero ella te gusta más\n(Desearía ser Heather)\n\nMe quedo mirando mientras ella sostiene tu mano\nPones tu brazo alrededor de su hombro, ahora me está dando más frío\nPero cómo podría odiarla, ella es un ángel\nPero al instante, como que desearía que estuviera muerta\n\nMientras ella pasa\nQué espectáculo para los ojos cansados, más brillantes que el cielo azul\nElla te tiene hipnotizado mientras yo muero\n\n¿Por qué me besarías?\nNo tengo ni la mitad de su belleza\nLe diste tu suéter, es solo poliéster\nPero ella te gusta más\n(Desearía ser Heather)\n\n(Oh) desearía ser Heather\n(Oh, oh) desearía ser Heather\n\n¿Por qué me besarías?\nNo tengo ni la mitad de su belleza\nLe diste tu suéter, es solo poliéster\nPero ella te gusta más\nDesearía ser",
+        video:"https://www.youtube.com/embed/24u3NoPvgMw?si=hQ6b9npz-AmEf2a0",
+        reproductor:"/Audios/heather.mp3"
     }
 }
 
