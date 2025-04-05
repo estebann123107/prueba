@@ -211,7 +211,7 @@ const list ={
         reproductor:"/Audios/Bed Rest.mp3"
     },
     Movies:{
-        tittle:"",
+        tittle:"Movies",
         textColor: "rgb(253, 76, 53)",
         back:"Songs.html?album=Superache",
         fondo:"/Images/Superache.jpg",
