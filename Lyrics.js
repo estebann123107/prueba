@@ -210,13 +210,23 @@ const list ={
         video:"https://www.youtube.com/embed/-zoIL0n_9Vw?si=UivFFYzzaTWpkTpY",
         reproductor:"/Audios/Bed Rest.mp3"
     },
+    Movies:{
+        tittle:"",
+        textColor: "rgb(253, 76, 53)",
+        back:"Songs.html?album=Superache",
+        fondo:"/Images/Superache.jpg",
+        letra:"Movies, movies\nI want a love like the movies\n\nI look at you like you're perfect for me\nIf you are the diamond, then I am the ring\nAll of our friends think of us jealously\nWe're so sweet, so sweet\n\nBuilt us a world and I gave you the key\nStill can't believe that this isn't a dream\nFalling in love with a damn fantasy\nThat's so me, so me\n\nBut I've been living\nLife in fiction\n\nIn my head\nWe're dancing in the dark\nIn my head\nWe kiss under the stars\nBut we know that's not what we're doing\n'Causе, baby, this ain't like the movies\n\nMoviеs, movies\nI want a love like the movies\n\nWe go to parties with people you know\nWe're holding hands, but it's all just for show\n'Cause Monday through Friday, we both barely spoke\nThey don't know, they can't know\n\nLike just on the drive here, I was looking through your texts\nI was screaming my damn head off how you still love your ex\nAnd you said that it's over, but why does she call you at 3AM and 4AM?\nThat's a funny way of staying friends\n\nIn my head\nWe're dancing in the dark\nIn my head\nWe kiss under the stars\nBut we know that's not what we're doing\n'Causе, baby, this ain't like the movies\n\nIn my head\nWe never grow apart\nIn my head\nYou never break my heart\nBut we know that's not what we're doing\n'Cause, baby, this ain't like the movies\n\nMovies, movies\nI want a love like the movies\nMovies, movies\nI want a love like the movies\n\nBaby, we lost all the love that we had (movies, movies)\nAnd I can't pretend it'll never come back (I want a love like the movies)\nAnd I think you're seeing right through me (movies, movies)\nBut, baby, this ain't like the movies\n\nAnd I want a love like the movies",
+        traduccion:"Películas, películas\nQuiero un amor como en las películas\n\nTe miro y creo que eres perfecto para mí\nSi tú eres el diamante, yo soy el anillo\nTodos nuestros amigos nos miran con envidia\nSomos tan dulces, tan dulces\n\nCreamos un mundo y te di la llave\nAún no puedo creer que esto no sea un sueño\nEnamorándome de una maldita fantasía\nEso soy yo, eso soy yo\n\nPero he estado viviendo\nUna vida de ficción\n\nEn mi cabeza\nEstamos bailando en la oscuridad\nEn mi cabeza\nNos besamos bajo las estrellas\nPero sabemos que eso no es lo que estamos haciendo\nPorque, cariño, esto no es como en las películas\n\nPelículas, películas\nQuiero un amor como en las películas\n\nVamos a fiestas con gente que conoces\nNos tomamos de la mano, pero todo es solo para mostrar\nPorque de lunes a viernes apenas hablamos\nEllos no saben, no pueden saber\n\nComo cuando venía para acá, revisé tus mensajes\nEstaba gritando de frustración cómo todavía amas a tu ex\nY dijiste que ya terminó, pero, ¿por qué ella te llama a las 3 y 4 de la mañana?\nEs una forma curiosa de seguir siendo amigos\n\nEn mi cabeza\nEstamos bailando en la oscuridad\nEn mi cabeza\nNos besamos bajo las estrellas\nPero sabemos que eso no es lo que estamos haciendo\nPorque, cariño, esto no es como en las películas\n\nEn mi cabeza\nNunca nos alejamos\nEn mi cabeza\nNunca rompes mi corazón\nPero sabemos que eso no es lo que estamos haciendo\nPorque, cariño, esto no es como las películas\n\nPelículas, películas\nQuiero un amor como en las películas\nPelículas, películas\nQuiero un amor como en las películas\n\nCariño, hemos perdido todo el amor que teníamos (películas, películas)\nY no puedo pretender que nunca volverá (quiero un amor como en las películas)\nY creo que estás viendo a través de mí (películas, películas)\nPero, cariño, esto no es como en las películas\n\nY quiero un amor como en las películas",
+        video:"https://www.youtube.com/embed/r4N6V8w5rNs?si=EsJlLdK9T7g5zrW9",
+        reproductor:"/Audios/Movies.mp3"
+    }
 }
 
  /*   :{
         tittle:"",
-        textColor: "rgb(19, 120, 235)",
-        back:"Songs.html?album=",
-        fondo:"/Images/BedRest.webp",
+        textColor: "rgb(253, 76, 53)",
+        back:"Songs.html?album=Superache",
+        fondo:"/Images/Superache.jpg",
         letra:"",\n
         traduccion:"",\n
         video:"",
