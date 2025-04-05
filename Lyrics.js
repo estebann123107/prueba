@@ -219,7 +219,7 @@ const list ={
         traduccion:"Películas, películas\nQuiero un amor como en las películas\n\nTe miro y creo que eres perfecto para mí\nSi tú eres el diamante, yo soy el anillo\nTodos nuestros amigos nos miran con envidia\nSomos tan dulces, tan dulces\n\nCreamos un mundo y te di la llave\nAún no puedo creer que esto no sea un sueño\nEnamorándome de una maldita fantasía\nEso soy yo, eso soy yo\n\nPero he estado viviendo\nUna vida de ficción\n\nEn mi cabeza\nEstamos bailando en la oscuridad\nEn mi cabeza\nNos besamos bajo las estrellas\nPero sabemos que eso no es lo que estamos haciendo\nPorque, cariño, esto no es como en las películas\n\nPelículas, películas\nQuiero un amor como en las películas\n\nVamos a fiestas con gente que conoces\nNos tomamos de la mano, pero todo es solo para mostrar\nPorque de lunes a viernes apenas hablamos\nEllos no saben, no pueden saber\n\nComo cuando venía para acá, revisé tus mensajes\nEstaba gritando de frustración cómo todavía amas a tu ex\nY dijiste que ya terminó, pero, ¿por qué ella te llama a las 3 y 4 de la mañana?\nEs una forma curiosa de seguir siendo amigos\n\nEn mi cabeza\nEstamos bailando en la oscuridad\nEn mi cabeza\nNos besamos bajo las estrellas\nPero sabemos que eso no es lo que estamos haciendo\nPorque, cariño, esto no es como en las películas\n\nEn mi cabeza\nNunca nos alejamos\nEn mi cabeza\nNunca rompes mi corazón\nPero sabemos que eso no es lo que estamos haciendo\nPorque, cariño, esto no es como las películas\n\nPelículas, películas\nQuiero un amor como en las películas\nPelículas, películas\nQuiero un amor como en las películas\n\nCariño, hemos perdido todo el amor que teníamos (películas, películas)\nY no puedo pretender que nunca volverá (quiero un amor como en las películas)\nY creo que estás viendo a través de mí (películas, películas)\nPero, cariño, esto no es como en las películas\n\nY quiero un amor como en las películas",
         video:"https://www.youtube.com/embed/r4N6V8w5rNs?si=EsJlLdK9T7g5zrW9",
         reproductor:"/Audios/Movies.mp3"
-    }
+    },
 }
 
  /*   :{
@@ -231,7 +231,7 @@ const list ={
         traduccion:"",\n
         video:"",
         reproductor:"/Audios/.mp3"
-    }
+    },
       */  
 
 function obtenerParametro(nombre){
