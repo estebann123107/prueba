@@ -15,7 +15,7 @@ body{
 }
 .header {
     background-image:
-        url(/Images/BedRest.webp);
+        url(/Images/wishbone.jpeg);
         background-position: center;
         background-size: cover;
         min-height: 80vh;
@@ -44,7 +44,7 @@ body{
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     transition: 300ms ease-in-out;
     
 }
@@ -66,7 +66,7 @@ body{
 }
 
 .logo{
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     font-size: 25px;
     font-weight: 800;
     padding: 20px;
@@ -74,16 +74,16 @@ body{
 }
 
 .header-content h1{
-    color:rgb(19, 120, 235) ;
+    color:rgb(101, 144, 194);
     font-size: 50px;
 }
 .header-content h2{
-    color:rgb(19, 120, 235) ;
+    color:rgb(101, 144, 194);
     margin-bottom: 10px;
     
 }
 .header-content h3{
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     margin-bottom: 10px;
 }
 
@@ -93,13 +93,13 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color:rgb(19, 120, 235);
+    color:rgb(101, 144, 194);
     border-radius: 10px;
-    border: 1px solid rgb(19, 120, 235);
+    border: 1px solid rgb(101, 144, 194);
     transition: 300ms ease-in-out;
 }
 .btn-1:hover{
-    background-color: rgb(19, 120, 235);
+    background-color: rgb(101, 144, 194);
     color: aliceblue;
 } 
 
@@ -112,7 +112,7 @@ body{
 .Albums-content h2{
     margin-top: 70px;
     margin-left: 100px;
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     font-size: 40px;
     
 }
@@ -200,7 +200,7 @@ body{
 
 
 .tour-content h2{
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     font-size: 40px;
 }
 
@@ -255,7 +255,7 @@ body{
 .footer ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     transition: 300ms ease-in-out;
 }
 .footer ul li img{
@@ -284,7 +284,7 @@ body{
   }
   
   .Popular{
-    color: rgb(19, 120, 235);
+    color: rgb(101, 144, 194);
     font-size: 40px;
     margin-top: 40px;
     margin-left: 100px;
@@ -388,7 +388,7 @@ body{
             
         }
         .menu .navbar ul li a:hover{
-            color: rgb(19, 120, 235);
+            color: rgb(101, 144, 194);
         
         }
     .header{
@@ -399,7 +399,7 @@ body{
     }
     .btn-1:hover{
         background-color: initial;
-        color: rgb(19, 120, 235);
+        color: rgb(101, 144, 194);
     } 
 
     .Albums{
@@ -478,7 +478,7 @@ body{
         
       }
       .Popular{
-        color: rgb(19, 120, 235);
+        color: rgb(101, 144, 194);
         font-size: 30px;
        align-items: center;
        text-align: center;
@@ -512,7 +512,7 @@ body{
         }
        
         .footer ul li a:hover{
-            color: rgb(19, 120, 235);
+            color: rgb(101, 144, 194);
         }
 
 }
