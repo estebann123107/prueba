@@ -280,7 +280,7 @@ body{
     margin-left: 0;
     margin-right: 0;
     overflow: hidden;
-    background-color: rgb(87, 118, 153); 
+    background-color: rgb(101, 144, 194); 
   }
   
   .Popular{
@@ -465,7 +465,7 @@ body{
         overflow-x: auto; /* Permite el desplazamiento horizontal */
     -webkit-overflow-scrolling: touch; /* Desplazamiento suave en dispositivos táctiles */
     scroll-snap-type: x mandatory; 
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(72, 95, 122);
     border-radius: 5px;
     margin-bottom: 10px;
       }
