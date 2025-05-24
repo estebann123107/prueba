@@ -383,7 +383,7 @@ body{
         }
         #menu:checked ~ .navbar{
             opacity: 100%;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(113, 123, 136, 0.7);
             transform: translateX(0%);
             
         }
