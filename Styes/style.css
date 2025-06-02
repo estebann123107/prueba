@@ -20,8 +20,37 @@ body{
         background-size: cover;
         min-height: 80vh;
         display: flex;
-        align-items: center;
+        align-items: center;   
+        text-align: center;
+}
+.ss{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   
+}
+@keyframes scrollss{
+       0%{
+        opacity: 0;
+        padding-left: 0;
+        padding-right: 0;
         
+       } 
+       100%{
+        opacity: 1;
+        padding-left: 300px;
+        padding-right: 200px;
+        
+       }
+}
+
+.ss{
+    transition: ease-in-out;
+	animation: scrollss linear;
+    animation-timeline: view();
+    animation-range: entry -5% contain 10%;
+    animation-fill-mode: both;
 }
 .menu{
     position: absolute;
@@ -64,7 +93,16 @@ body{
 .header-content{
     text-align: center;
 }
+.textep{
+    text-align: center;
+    color: rgb(101, 144, 194);
+    font-size: 20px;
+}
 
+.imgss img{
+    width: 60vh;
+    border-radius: 25px;
+}
 .logo{
     color: rgb(101, 144, 194);
     font-size: 25px;
@@ -77,11 +115,13 @@ body{
     color:rgb(101, 144, 194);
     font-size: 50px;
 }
+
 .header-content h2{
     color:rgb(101, 144, 194);
     margin-bottom: 10px;
     
 }
+
 .header-content h3{
     color: rgb(101, 144, 194);
     margin-bottom: 10px;
@@ -142,7 +182,6 @@ body{
     0%{
      opacity: 0;
      transform: scale(25%);
-     
     } 
     100%{
      opacity: 1;
@@ -171,7 +210,9 @@ body{
 .Cover:hover .Albumsgroup{
     margin-bottom: 190px;
 }
-
+.Cover:hover .wish{
+   color: rgb(101, 144, 194);
+}
 .Cover:hover .kid{
     color: rgb(19, 120, 235);
 }
@@ -424,7 +465,31 @@ body{
         margin-bottom: 20px;
         margin-top: 20px;
     }
-    
+    @keyframes scrollss{
+       0%{
+        opacity: 0;
+        transform: scale(100%);
+        
+       } 
+       100%{
+        opacity: 1;
+        transform: scale(80%);
+        
+       }
+}
+    .ss{
+        transition: ease-in-out;
+	animation: scrollss linear;
+    animation-timeline: view();
+    animation-range: entry -5% contain 10%;
+    animation-fill-mode: both;
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    .imgss img{
+        width: 50vh;
+        margin-bottom: 20px;
+    }
     
     .tour{
         padding: 30px;
