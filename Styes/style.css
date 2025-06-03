@@ -477,23 +477,26 @@ body{
         transform: scale(100%);
         
        } 
-       100%{
+       45%, 50%{
         opacity: 1;
         transform: scale(80%);
         
        }
+       100%{
+        opacity: 0;
+        transform: scale(100%);
+        
+       } 
 }
     .ss{
         transition: ease-in-out;
-	animation: scrollss linear;
+	animation: scrollss both;
     animation-timeline: view();
-    animation-range: entry -5% contain 10%;
-    animation-fill-mode: both;
         flex-direction: column-reverse;
         margin-bottom: 40px;
     }
     .imgss img{
-        width: 50vh;
+        width: 50%;
         margin-bottom: 20px;
     }
     
