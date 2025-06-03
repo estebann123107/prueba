@@ -175,11 +175,16 @@ body{
         transform: translateX(-100%);
         
        } 
-       100%{
+       45%, 50%{
         opacity: 1;
         transform: translateX(0%);
         
        }
+       100%{
+        opacity: 0;
+        transform: translateX(-100%);
+        
+       } 
 }
 @keyframes scroll2{
     0%{
@@ -194,10 +199,8 @@ body{
 }
 .Cover{
     transition: ease-in-out;
-	animation: scroll1 linear;
+	animation: scroll1 both;
     animation-timeline: view();
-    animation-range: entry -5% contain 10%;
-    animation-fill-mode: both;
 }
 .Cover img{
     width: 250px;
