@@ -39,6 +39,7 @@ body{
        } 
        45%, 50%{
         opacity: 1;
+        background-color: aliceblue;
         padding-left: 300px;
         padding-right: 200px;
         
