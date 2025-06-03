@@ -37,11 +37,16 @@ body{
         padding-right: 0;
         
        } 
-       100%{
+       45%, 50%{
         opacity: 1;
         padding-left: 300px;
         padding-right: 200px;
         
+       }
+       100%{
+         opacity: 0;
+        padding-left: 0;
+        padding-right: 0;
        }
 }
 

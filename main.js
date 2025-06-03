@@ -2,13 +2,6 @@ const template = document.getElementById('cover-template')
 
 const Albums = [
     {
-        title: 'Sunset Season',
-        link: 'Songs.html?album=Sunsetseason',
-        image: 'Images/SunsetSeason.jpg',
-        class: 'sun'
-
-    },
-    {
         title: 'Kid Krow',
         link: 'Songs.html?album=KidKrow',
         image: 'Images/KitKrow.jpeg',
@@ -25,6 +18,13 @@ const Albums = [
         link: 'Songs.html?album=FoundHeaven',
         image: 'Images/FoundHeaven.webp',
         class: 'fh'
+    },
+    {
+        title: 'Wishbone',
+        link: 'Songs.html?album=Wishbone',
+        image: 'Images/wishbone.jpeg',
+        class: 'wish'
+
     },
 ]
 
