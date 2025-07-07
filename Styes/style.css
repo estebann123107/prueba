@@ -317,14 +317,7 @@ body{
     color: aliceblue;
 }
 
-  .Populara{
-    transition: ease-in-out;
-    animation: scroll2 linear;
-    animation-timeline: view();
-    animation-range: entry -5% contain 10%;
-    animation-fill-mode: both;
-  }
-
+  
   .Popular-container {
     position: relative;
     width: 100%;
