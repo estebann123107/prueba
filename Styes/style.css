@@ -542,7 +542,7 @@ body{
         overflow-x: auto; /* Permite el desplazamiento horizontal */
     -webkit-overflow-scrolling: touch; /* Desplazamiento suave en dispositivos táctiles */
     scroll-snap-type: x mandatory; 
-    background-color: rgb(19, 19, 19);
+    background-color: #2A2A2A;
     border-radius: 5px;
     margin-bottom: 10px;
       }
@@ -555,13 +555,14 @@ body{
         
       }
       .Popular{
-        color: #247FFF;
+        color: #ffffff;
         font-size: 30px;
        align-items: center;
        text-align: center;
        padding: 0;
        margin: 0;
        margin-bottom: 10px;
+       margin-top: 100px;
       }
       
       .Songs-item {
