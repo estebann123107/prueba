@@ -112,7 +112,7 @@ body{
 .logo img{
     width: 83.784px;
 height: 83.217px;
-flex-shrink: 0;
+margin-left: 20px;
 }
 
 .header-content h1{
