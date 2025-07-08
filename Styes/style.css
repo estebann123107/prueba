@@ -109,12 +109,10 @@ body{
     width: 60vh;
     border-radius: 25px;
 }
-.logo{
-    color: #247FFF;
-    font-size: 36px;
-    font-weight: 800;
-    padding: 20px;
-    transform: translate(0%);
+.logo img{
+    width: 83.784px;
+height: 83.217px;
+flex-shrink: 0;
 }
 
 .header-content h1{
