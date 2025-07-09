@@ -326,7 +326,13 @@ margin-left: 20px;
     overflow: hidden;
     background-color: #2A2A2A; 
   }
-  
+  .TittlePop{
+    display: flex;
+  }
+  .TittlePop a{
+    color: #ffffff;
+    font-size: 20px;
+  }
   .Popular{
     color: #ffffff;
     font-size: 40px;
