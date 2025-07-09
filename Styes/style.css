@@ -562,6 +562,9 @@ margin-left: 20px;
         display: flex;
         
       }
+      .TittlePop{
+        padding: 30px;
+      }
       .Popular{
         color: #ffffff;
         font-size: 30px;
@@ -569,8 +572,6 @@ margin-left: 20px;
        text-align: center;
        padding: 0;
        margin: 0;
-       margin-bottom: 10px;
-       margin-top: 100px;
       }
       
       .Songs-item {
