@@ -328,6 +328,11 @@ margin-left: 20px;
   }
   .TittlePop{
     display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 0px;
+    align-items: center;
   }
   .TittlePop a{
     color: #ffffff;
@@ -336,7 +341,6 @@ margin-left: 20px;
   .Popular{
     color: #ffffff;
     font-size: 40px;
-    margin-top: 200px;
     text-align: center;
     margin-bottom: 10px;
   }
